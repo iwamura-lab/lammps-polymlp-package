@@ -22,3 +22,24 @@ _deps
 *-prefix/
 
 # End of https://www.toptal.com/developers/gitignore/api/cmake
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python
